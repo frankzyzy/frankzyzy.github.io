@@ -24,5 +24,27 @@ ps aux | grep nginx
 快速停止或关闭Nginx：nginx -s stop
 正常停止或关闭Nginx：nginx -s quit
 配置文件修改重装载命令：nginx -s reload
+{% highlight java linenos %}
+	@Test
+    public void dynamicForeach3Test() {
+        SqlSession session = Util.getSqlSessionFactory().openSession();
+         BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+          final List ids = new ArrayList();
+          ids.add(1);
+          ids.add(2);
+          ids.add(3);
+          ids.add(6);
+          ids.add(7);
+          ids.add(9);
+         Map params = new HashMap();
+         params.put("ids", ids);
+         params.put("title", "中国");
+        List blogs = blogMapper.dynamicForeach3Test(params);
+         for (Blog blog : blogs)
+             System.out.println(blog);
+         session.close();
+     }
+
+{% endhighlight %}
 
 
