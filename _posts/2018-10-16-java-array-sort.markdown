@@ -46,9 +46,12 @@ public class SortFunction
 }
 {% endhighlight %}
 输出结果：
-{% highlight txt %}
+{% highlight cmd %}
 2 4 5 7 9 10 
 {% endhighlight %}
+
+## 2.二分法排序
+
 
 
 
