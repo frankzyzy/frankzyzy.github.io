@@ -7,6 +7,7 @@ img: we-in-rest.jpg # Add image post (optional)
 tags: [java,springboot] # add tag
 ---
 
+
 # 概述
 
 开发的同学们都知道，例如项目依赖的信息，数据库信息一般是保存在配置文件中，而且都是明文，因此需要进行加密处理，今天在这里介绍下jasypt集成springboot加密的配置
@@ -24,7 +25,7 @@ tags: [java,springboot] # add tag
 
 2. 第二步：生成密钥(在windows下命令生成加密密文)
 
-   找到你的maven仓库路径==G:\maven\repository\org\jasypt\jasypt\1.9.2\==，替换下面的路径。
+   找到你的maven仓库路径 ====G:\maven\repository\org\jasypt\jasypt\1.9.2\====，替换下面的路径。
 
    参数说明:
 
