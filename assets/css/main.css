@@ -942,8 +942,8 @@ table tfoot td {
 }
 
 .about .cover-author-image {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
@@ -996,7 +996,7 @@ table tfoot td {
 }
 
 .about p {
-  font-size: 16px;
+  font-size: 14px;
   margin: 0 0 10px;
 }
 
@@ -1147,7 +1147,7 @@ footer .copyright {
 
 .post .post-content {
   padding: 1rem;
-  width: 70%;
+  width: 90%;
 }
 
 .post .post-content .post-date,
@@ -1157,8 +1157,8 @@ footer .copyright {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .post .post-content .post-title a {
