@@ -1,4 +1,4 @@
-title: 火炎焱燚个人博客
+title: 火炎焱燚 | 个人博客
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,12 +9,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: frankzyzy
+author: yzengchn
 author-img:  touxiang.png# add your photo
-about-author: 一个火炎焱燚的java开发工程师
+about-author: 机器瞎学/数据掩埋/模式混淆/人工智障/深度遗忘/神经掉线/计算机幻觉/
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: frankzyzy
+social-github: yzengchn
 social-linkedin: # add your Linkedin handle
 social-email: yzengchn@163.com
 
